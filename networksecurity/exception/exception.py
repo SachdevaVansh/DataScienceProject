@@ -1,5 +1,4 @@
 import sys
-print("Hello",sys.path)
 import os
 sys.path.append(os.path.abspath(os.path.join(os.getcwd())))
 from networksecurity.logging import logger 
