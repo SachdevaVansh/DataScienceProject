@@ -28,3 +28,21 @@ DATA_VALIDATION_VALID_DIR: str="validated"
 DATA_VALIDATION_INVALID_DIR: str="invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str="drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str="report.yaml"
+
+# Data Transformation related constants
+DATA_TRANSFORMATION_DIR_NAME: str="data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str="transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str="transformed_object"
+
+# KNN Imputer related constants to replace Nan Values
+DATA_TRANSFORMATION_IMPUTER_PARAMS: dict={
+    "missing_values":np.nan,
+    "n_neighbors":3,
+    "weights":"uniform",
+}
+# For the Preprocessing.pkl file
+PREPROCESSED_OBJECT_FILE_NAME: str="preprocessed.pkl"
+
+# NUmpy array file paths 
+DATA_TRANSFORMATION_TRAIN_FILE_PATH: str = "train.npy"
+DATA_TRANSFORMATION_TEST_FILE_PATH: str = "test.npy"
